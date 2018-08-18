@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -120,15 +120,21 @@
   <ItemGroup>
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CutSticks.cpp" />
+    <ClCompile Include="FloorBoards.cpp" />
     <ClCompile Include="InfiniteSequence2.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
+    <ClCompile Include="TwoStringMasks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CutSticks.h" />
+    <ClInclude Include="FloorBoards.h" />
     <ClInclude Include="InfiniteSequence2.h" />
+    <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />
+    <ClInclude Include="TwoStringMasks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
