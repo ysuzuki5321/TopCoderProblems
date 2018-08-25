@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BatchSystem.cpp" />
+    <ClCompile Include="CountExpressions.cpp" />
     <ClCompile Include="CutSticks.cpp" />
     <ClCompile Include="FloorBoards.cpp" />
     <ClCompile Include="InfiniteSequence2.cpp" />
@@ -129,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BatchSystem.h" />
+    <ClInclude Include="CountExpressions.h" />
     <ClInclude Include="CutSticks.h" />
     <ClInclude Include="FloorBoards.h" />
     <ClInclude Include="InfiniteSequence2.h" />
