@@ -118,6 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AvoidingProduct.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CountExpressions.cpp" />
     <ClCompile Include="CutSticks.cpp" />
@@ -129,6 +130,7 @@
     <ClCompile Include="TwoStringMasks.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AvoidingProduct.h" />
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CountExpressions.h" />
     <ClInclude Include="CutSticks.h" />
