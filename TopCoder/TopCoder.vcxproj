@@ -126,6 +126,7 @@
     <ClCompile Include="FloorBoards.cpp" />
     <ClCompile Include="InfiniteSequence2.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RevealTriangle.cpp" />
     <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
     <ClCompile Include="TwoStringMasks.cpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="FIELDDiagrams.h" />
     <ClInclude Include="FloorBoards.h" />
     <ClInclude Include="InfiniteSequence2.h" />
+    <ClInclude Include="RevealTriangle.h" />
     <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />
     <ClInclude Include="TwoStringMasks.h" />
