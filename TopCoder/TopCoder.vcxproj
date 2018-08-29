@@ -122,6 +122,7 @@
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CountExpressions.cpp" />
     <ClCompile Include="CutSticks.cpp" />
+    <ClCompile Include="FIELDDiagrams.cpp" />
     <ClCompile Include="FloorBoards.cpp" />
     <ClCompile Include="InfiniteSequence2.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -134,6 +135,7 @@
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CountExpressions.h" />
     <ClInclude Include="CutSticks.h" />
+    <ClInclude Include="FIELDDiagrams.h" />
     <ClInclude Include="FloorBoards.h" />
     <ClInclude Include="InfiniteSequence2.h" />
     <ClInclude Include="SortingGame.h" />
