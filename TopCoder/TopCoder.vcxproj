@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="AvoidingProduct.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
+    <ClCompile Include="CorporationSalary.cpp" />
     <ClCompile Include="CountExpressions.cpp" />
     <ClCompile Include="CutSticks.cpp" />
     <ClCompile Include="FIELDDiagrams.cpp" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="AvoidingProduct.h" />
     <ClInclude Include="BatchSystem.h" />
+    <ClInclude Include="CorporationSalary.h" />
     <ClInclude Include="CountExpressions.h" />
     <ClInclude Include="CutSticks.h" />
     <ClInclude Include="FIELDDiagrams.h" />
