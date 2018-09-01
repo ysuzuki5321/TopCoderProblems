@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AvoidingProduct.cpp" />
+    <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CorporationSalary.cpp" />
     <ClCompile Include="CountExpressions.cpp" />
@@ -129,6 +130,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="RelativePath.cpp" />
     <ClCompile Include="RevealTriangle.cpp" />
+    <ClCompile Include="SmoothNumbers.cpp" />
     <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
     <ClCompile Include="SymmetricPie.cpp" />
@@ -136,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AvoidingProduct.h" />
+    <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CorporationSalary.h" />
     <ClInclude Include="CountExpressions.h" />
@@ -145,6 +148,7 @@
     <ClInclude Include="InfiniteSequence2.h" />
     <ClInclude Include="RelativePath.h" />
     <ClInclude Include="RevealTriangle.h" />
+    <ClInclude Include="SmoothNumbers.h" />
     <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />
     <ClInclude Include="SymmetricPie.h" />
