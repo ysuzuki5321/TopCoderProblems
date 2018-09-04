@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{74566B53-5108-484B-8B3A-C52766CC738C}</ProjectGuid>
     <RootNamespace>TopCoder</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AvoidingProduct.cpp" />
+    <ClCompile Include="OlympicCandles.cpp" />
     <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CorporationSalary.cpp" />
@@ -138,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AvoidingProduct.h" />
+    <ClInclude Include="OlympicCandles.h" />
     <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CorporationSalary.h" />

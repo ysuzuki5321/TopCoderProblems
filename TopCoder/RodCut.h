@@ -21,8 +21,8 @@ using namespace std;
 class RodCut
 {
 public:
-	BarCut();
-	~BarCut();
+	RodCut();
+	~RodCut();
 	int Calc(int N, vector<int> value) {
 
 		int dp[100];

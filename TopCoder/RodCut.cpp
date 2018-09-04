@@ -1,12 +1,12 @@
-#include "BarCut.h"
+#include "RodCut.h"
 
 
 
-BarCut::RodCut()
+RodCut::RodCut()
 {
 }
 
 
-BarCut::~RodCut()
+RodCut::~RodCut()
 {
 }
