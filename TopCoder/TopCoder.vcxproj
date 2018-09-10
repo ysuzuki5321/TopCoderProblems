@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{74566B53-5108-484B-8B3A-C52766CC738C}</ProjectGuid>
     <RootNamespace>TopCoder</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -118,7 +118,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddElectricalWires.cpp" />
     <ClCompile Include="AvoidingProduct.cpp" />
+    <ClCompile Include="CutRodRec.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
     <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
@@ -131,6 +133,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="RelativePath.cpp" />
     <ClCompile Include="RevealTriangle.cpp" />
+    <ClCompile Include="SentenceDecomposition.cpp" />
     <ClCompile Include="SmoothNumbers.cpp" />
     <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
@@ -138,7 +141,9 @@
     <ClCompile Include="TwoStringMasks.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddElectricalWires.h" />
     <ClInclude Include="AvoidingProduct.h" />
+    <ClInclude Include="CutRodRec.h" />
     <ClInclude Include="OlympicCandles.h" />
     <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
@@ -150,6 +155,7 @@
     <ClInclude Include="InfiniteSequence2.h" />
     <ClInclude Include="RelativePath.h" />
     <ClInclude Include="RevealTriangle.h" />
+    <ClInclude Include="SentenceDecomposition.h" />
     <ClInclude Include="SmoothNumbers.h" />
     <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />
