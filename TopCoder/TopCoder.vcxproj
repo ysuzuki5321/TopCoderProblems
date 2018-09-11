@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="AvoidingProduct.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
+    <ClCompile Include="OrderedSuperString.cpp" />
     <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CorporationSalary.cpp" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="AvoidingProduct.h" />
     <ClInclude Include="OlympicCandles.h" />
+    <ClInclude Include="OrderedSuperString.h" />
     <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CorporationSalary.h" />
