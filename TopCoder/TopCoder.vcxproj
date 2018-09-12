@@ -121,6 +121,7 @@
     <ClCompile Include="AddElectricalWires.cpp" />
     <ClCompile Include="AvoidingProduct.cpp" />
     <ClCompile Include="CutRodRec.cpp" />
+    <ClCompile Include="ForbiddenStrings.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
     <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="AddElectricalWires.h" />
     <ClInclude Include="AvoidingProduct.h" />
     <ClInclude Include="CutRodRec.h" />
+    <ClInclude Include="ForbiddenStrings.h" />
     <ClInclude Include="OlympicCandles.h" />
     <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
