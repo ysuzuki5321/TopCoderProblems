@@ -123,6 +123,7 @@
     <ClCompile Include="CutRodRec.cpp" />
     <ClCompile Include="ForbiddenStrings.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
+    <ClCompile Include="OrderedSuperString.cpp" />
     <ClCompile Include="RodCut.cpp" />
     <ClCompile Include="BatchSystem.cpp" />
     <ClCompile Include="CorporationSalary.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="CutRodRec.h" />
     <ClInclude Include="ForbiddenStrings.h" />
     <ClInclude Include="OlympicCandles.h" />
+    <ClInclude Include="OrderedSuperString.h" />
     <ClInclude Include="RodCut.h" />
     <ClInclude Include="BatchSystem.h" />
     <ClInclude Include="CorporationSalary.h" />
