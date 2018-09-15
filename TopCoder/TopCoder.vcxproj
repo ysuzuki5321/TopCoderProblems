@@ -121,6 +121,7 @@
     <ClCompile Include="AddElectricalWires.cpp" />
     <ClCompile Include="AvoidingProduct.cpp" />
     <ClCompile Include="CutRodRec.cpp" />
+    <ClCompile Include="Embassy.cpp" />
     <ClCompile Include="ForbiddenStrings.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
     <ClCompile Include="OrderedSuperString.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="RelativePath.cpp" />
     <ClCompile Include="RevealTriangle.cpp" />
     <ClCompile Include="SentenceDecomposition.cpp" />
+    <ClCompile Include="ShipLoading.cpp" />
     <ClCompile Include="SmoothNumbers.cpp" />
     <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
@@ -146,6 +148,7 @@
     <ClInclude Include="AddElectricalWires.h" />
     <ClInclude Include="AvoidingProduct.h" />
     <ClInclude Include="CutRodRec.h" />
+    <ClInclude Include="Embassy.h" />
     <ClInclude Include="ForbiddenStrings.h" />
     <ClInclude Include="OlympicCandles.h" />
     <ClInclude Include="OrderedSuperString.h" />
@@ -160,6 +163,7 @@
     <ClInclude Include="RelativePath.h" />
     <ClInclude Include="RevealTriangle.h" />
     <ClInclude Include="SentenceDecomposition.h" />
+    <ClInclude Include="ShipLoading.h" />
     <ClInclude Include="SmoothNumbers.h" />
     <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />

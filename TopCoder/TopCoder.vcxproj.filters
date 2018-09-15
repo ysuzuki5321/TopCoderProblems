@@ -1,150 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="リソース ファイル">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="AddElectricalWires.cpp" />
+    <ClCompile Include="AvoidingProduct.cpp" />
+    <ClCompile Include="CutRodRec.cpp" />
+    <ClCompile Include="ForbiddenStrings.cpp" />
+    <ClCompile Include="OlympicCandles.cpp" />
+    <ClCompile Include="OrderedSuperString.cpp" />
+    <ClCompile Include="RodCut.cpp" />
+    <ClCompile Include="BatchSystem.cpp" />
+    <ClCompile Include="CorporationSalary.cpp" />
+    <ClCompile Include="CountExpressions.cpp" />
+    <ClCompile Include="CutSticks.cpp" />
+    <ClCompile Include="FIELDDiagrams.cpp" />
+    <ClCompile Include="FloorBoards.cpp" />
+    <ClCompile Include="InfiniteSequence2.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RelativePath.cpp" />
+    <ClCompile Include="RevealTriangle.cpp" />
+    <ClCompile Include="SentenceDecomposition.cpp" />
+    <ClCompile Include="SmoothNumbers.cpp" />
+    <ClCompile Include="SortingGame.cpp" />
+    <ClCompile Include="StockHistory.cpp" />
+    <ClCompile Include="SymmetricPie.cpp" />
+    <ClCompile Include="TwoStringMasks.cpp" />
+    <ClCompile Include="Embassy.cpp" />
+    <ClCompile Include="ShipLoading.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="StockHistory.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="BatchSystem.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CutSticks.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="InfiniteSequence2.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="TwoStringMasks.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="FloorBoards.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SortingGame.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CountExpressions.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AvoidingProduct.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="FIELDDiagrams.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="RevealTriangle.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="RelativePath.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SymmetricPie.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CorporationSalary.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SmoothNumbers.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="RodCut.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="OlympicCandles.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-	    <ClCompile Include="AddElectricalWires.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CutRodRec.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SentenceDecomposition.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="ForbiddenStrings.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-	    <ClCompile Include="OrderedSuperString.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="StockHistory.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="BatchSystem.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CutSticks.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="InfiniteSequence2.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="TwoStringMasks.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="FloorBoards.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SortingGame.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CountExpressions.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AvoidingProduct.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="FIELDDiagrams.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="RevealTriangle.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="RelativePath.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SymmetricPie.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CorporationSalary.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SmoothNumbers.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="RodCut.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="OlympicCandles.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-	    <ClInclude Include="AddElectricalWires.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CutRodRec.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SentenceDecomposition.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
+    <ClInclude Include="AddElectricalWires.h" />
+    <ClInclude Include="AvoidingProduct.h" />
+    <ClInclude Include="CutRodRec.h" />
+    <ClInclude Include="ForbiddenStrings.h" />
+    <ClInclude Include="OlympicCandles.h" />
+    <ClInclude Include="OrderedSuperString.h" />
+    <ClInclude Include="RodCut.h" />
+    <ClInclude Include="BatchSystem.h" />
+    <ClInclude Include="CorporationSalary.h" />
+    <ClInclude Include="CountExpressions.h" />
+    <ClInclude Include="CutSticks.h" />
+    <ClInclude Include="FIELDDiagrams.h" />
+    <ClInclude Include="FloorBoards.h" />
+    <ClInclude Include="InfiniteSequence2.h" />
+    <ClInclude Include="RelativePath.h" />
+    <ClInclude Include="RevealTriangle.h" />
+    <ClInclude Include="SentenceDecomposition.h" />
+    <ClInclude Include="SmoothNumbers.h" />
+    <ClInclude Include="SortingGame.h" />
+    <ClInclude Include="StockHistory.h" />
+    <ClInclude Include="SymmetricPie.h" />
+    <ClInclude Include="TwoStringMasks.h" />
+    <ClInclude Include="Embassy.h" />
+    <ClInclude Include="ShipLoading.h" />
   </ItemGroup>
 </Project>
