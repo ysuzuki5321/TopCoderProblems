@@ -27,31 +27,52 @@ public:
 		int turn = 0;
 
 		vector<int> boxeswaight;
+		string s = "";
+
 		for (size_t i = 0; i < boxes.size(); i++)
 		{
-			stringstream ss(boxes[i]);
-			int a;
-			while (ss >> a)
-			{
-				boxeswaight.push_back(a);
-			}
+			s += boxes[i];
+		}
+		stringstream ss(s);
+		int a;
+		int count = 0;
+		while (ss >> a)
+		{
+			boxeswaight.push_back(a);
+			count++;
 		}
 		sort(boxeswaight.begin(), boxeswaight.end(), greater<int>());
 		sort(cranes.begin(), cranes.end(), greater<int>());
-		while (boxeswaight.size() > 0)
+		int t[100000];
+		for (size_t i = 0; i < count; i++)
 		{
-			int bef = boxeswaight.size();
-			for (size_t i = 0; i < cranes.size(); i++)
+			t[i] = boxeswaight[i];
+		}
+		int cs[51];
+		for (size_t i = 0; i < cranes.size(); i++)
+		{
+			cs[i] = cranes[i];
+		}
+		int css = cranes.size();
+		int done = 0;
+		int use[10000];
+		memset(use, 0, sizeof(use));
+		while (done < count)
+		{
+			int bef = done;
+			for (size_t i = 0; i < css; i++)
 			{
-				for (size_t j = 0; j < boxeswaight.size(); j++)
+				for (size_t j = 0; j < count; j++)
 				{
-					if (boxeswaight[j] <= cranes[i]) {
-						boxeswaight.erase(boxeswaight.begin() + j);
+					if (use[j]) continue;
+					if (t[j] <= cs[i]) {
+						done++;
+						use[j] = 1;
 						break;
 					}
 				}
 			}
-			if (boxeswaight.size() == bef) return -1;
+			if (done == bef) return -1;
 			turn++;
 		}
 
