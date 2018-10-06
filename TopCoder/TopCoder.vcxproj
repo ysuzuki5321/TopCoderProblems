@@ -123,6 +123,7 @@
     <ClCompile Include="CutRodRec.cpp" />
     <ClCompile Include="Embassy.cpp" />
     <ClCompile Include="ForbiddenStrings.cpp" />
+    <ClCompile Include="NextNumber.cpp" />
     <ClCompile Include="OlympicCandles.cpp" />
     <ClCompile Include="OrderedSuperString.cpp" />
     <ClCompile Include="RodCut.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="SortingGame.cpp" />
     <ClCompile Include="StockHistory.cpp" />
     <ClCompile Include="SymmetricPie.cpp" />
+    <ClCompile Include="TemplateMatching.cpp" />
     <ClCompile Include="TwoStringMasks.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +152,7 @@
     <ClInclude Include="CutRodRec.h" />
     <ClInclude Include="Embassy.h" />
     <ClInclude Include="ForbiddenStrings.h" />
+    <ClInclude Include="NextNumber.h" />
     <ClInclude Include="OlympicCandles.h" />
     <ClInclude Include="OrderedSuperString.h" />
     <ClInclude Include="RodCut.h" />
@@ -168,6 +171,7 @@
     <ClInclude Include="SortingGame.h" />
     <ClInclude Include="StockHistory.h" />
     <ClInclude Include="SymmetricPie.h" />
+    <ClInclude Include="TemplateMatching.h" />
     <ClInclude Include="TwoStringMasks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

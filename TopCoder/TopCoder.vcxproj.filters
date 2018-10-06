@@ -26,6 +26,8 @@
     <ClCompile Include="TwoStringMasks.cpp" />
     <ClCompile Include="Embassy.cpp" />
     <ClCompile Include="ShipLoading.cpp" />
+    <ClCompile Include="NextNumber.cpp" />
+    <ClCompile Include="TemplateMatching.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddElectricalWires.h" />
@@ -52,5 +54,7 @@
     <ClInclude Include="TwoStringMasks.h" />
     <ClInclude Include="Embassy.h" />
     <ClInclude Include="ShipLoading.h" />
+    <ClInclude Include="NextNumber.h" />
+    <ClInclude Include="TemplateMatching.h" />
   </ItemGroup>
 </Project>
