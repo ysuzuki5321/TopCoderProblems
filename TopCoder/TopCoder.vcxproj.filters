@@ -28,6 +28,8 @@
     <ClCompile Include="ShipLoading.cpp" />
     <ClCompile Include="NextNumber.cpp" />
     <ClCompile Include="TemplateMatching.cpp" />
+    <ClCompile Include="TwoLotteryGames.cpp" />
+    <ClCompile Include="Undo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddElectricalWires.h" />
@@ -56,5 +58,7 @@
     <ClInclude Include="ShipLoading.h" />
     <ClInclude Include="NextNumber.h" />
     <ClInclude Include="TemplateMatching.h" />
+    <ClInclude Include="TwoLotteryGames.h" />
+    <ClInclude Include="Undo.h" />
   </ItemGroup>
 </Project>

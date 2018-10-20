@@ -144,7 +144,9 @@
     <ClCompile Include="StockHistory.cpp" />
     <ClCompile Include="SymmetricPie.cpp" />
     <ClCompile Include="TemplateMatching.cpp" />
+    <ClCompile Include="TwoLotteryGames.cpp" />
     <ClCompile Include="TwoStringMasks.cpp" />
+    <ClCompile Include="Undo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddElectricalWires.h" />
@@ -172,7 +174,9 @@
     <ClInclude Include="StockHistory.h" />
     <ClInclude Include="SymmetricPie.h" />
     <ClInclude Include="TemplateMatching.h" />
+    <ClInclude Include="TwoLotteryGames.h" />
     <ClInclude Include="TwoStringMasks.h" />
+    <ClInclude Include="Undo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
