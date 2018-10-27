@@ -52,43 +52,64 @@ public:
 		vector<pair<int,int>> unt;
 		int count[51];
 		memset(count,0,sizeof(count));
-		for (int i = time.size() - 1; i >= 0; i--)
+		vector<string> memo;
+		memo.push_back("");
+		for (int i = 0; i < time.size(); i++)
+			//for (int i = time.size() - 1; i >= 0; i--)
 		{
 			stringstream ss(commands[i]);
 			string ty;
 			ss >> ty;
 			if (ty == "undo") {
-
 				int v;
-				ss >> v;
-				int ic = 1;
-				for (size_t j = 0; j < unt.size(); j++)
+				ss >> v;	
+				int j = i;
+				for (; j >= 0; j--)
 				{
-					pair<int, int> pii = unt[j];
-					if (pii.first >= pii.second - time[i]) {
-						ic += count[j];
-					}
+					if ((time[i] - v) > time[j]) break;
 				}
-				count[unt.size()] = ic;
-				unt.push_back(pair<int,int> (v,time[i]));
+				j++;
+				memo.push_back(memo[max(0, (int)memo.size() - 1 - (i - j))]);
+
 			}
 			else {
-
 				char c;
-				int ct = 0;
 				ss >> c;
-				int now = time[i];
+				memo.push_back(memo[memo.size() - 1] + c);
 
-				for (int j = 0; j < unt.size(); j++)
-				{
-					if (unt[j].first >= unt[j].second - now) {
-						ct += count[j];
-					}
-				}
-				if (ct % 2 == 0) s =  c + s;
 			}
+			//if (ty == "undo") {
+
+			//	int v;
+			//	ss >> v;
+			//	int ic = 1;
+			//	for (size_t j = 0; j < unt.size(); j++)
+			//	{
+			//		pair<int, int> pii = unt[j];
+			//		if (pii.first >= pii.second - time[i]) {
+			//			ic += count[j];
+			//		}
+			//	}
+			//	count[unt.size()] = ic;
+			//	unt.push_back(pair<int,int> (v,time[i]));
+			//}
+			//else {
+
+			//	char c;
+			//	int ct = 0;
+			//	ss >> c;
+			//	int now = time[i];
+
+			//	for (int j = 0; j < unt.size(); j++)
+			//	{
+			//		if (unt[j].first >= unt[j].second - now) {
+			//			ct += count[j];
+			//		}
+			//	}
+			//	if (ct % 2 == 0) s =  c + s;
+			//}
 		}
-		return s;
+		return memo.back();
 	}
 };
 

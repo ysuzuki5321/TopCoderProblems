@@ -43,11 +43,11 @@ void display(vector<T> left, vector<T> right) {
 }
 int main() {
 	Undo ud;
+	cout << ud.getText({ "type e", "type c", "type t", "undo 3", "type a", "undo 2", "type x", "undo 2" }, { 1, 2, 5, 7, 9, 12, 13, 1000 }) << " : ecax\n";
 	cout << ud.getText({ "type a", "type b", "undo 2", "undo 2" }, { 1, 2, 3, 4 }) << " : a\n";
 	cout << ud.getText({ "type i", "undo 2", "undo 2", "undo 4", "undo 1" }, { 1, 2, 3, 4, 5 }) << " : \n";
 	cout << ud.getText({ "type i", "undo 2", "undo 2", "undo 4"}, { 1, 2, 3,4}) << " : \n";
 
-	cout << ud.getText({ "type e", "type c", "type t", "undo 3", "type a", "undo 2", "type x", "undo 2" }, { 1, 2, 5, 7, 9, 12, 13, 1000 }) << " : ecax\n";
 
 	cout << ud.getText({ "type a", "type b", "type c", "undo 3" }, { 1, 2, 3, 5 }) << " : a\n";
 	cout << ud.getText({ "type a", "undo 1", "undo 1" }, { 1, 2, 3 }) << " : a\n";
